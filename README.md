@@ -40,15 +40,15 @@ This README explains how to complete and submit your exercises.
 ## Submission Guidelines
 
 To make it easier to review your exercises, follow this workflow:
-<YourName>-exercise-<theme>
+`<Yourname>`-exercise-`<theme>`
 - Example:
 Alice-exercise-classes
 
 - Commit either:
   - `.kt` files, or
-  - Your code inside the Markdown template provided.
+  - Download `submition_template.md` and put your code inside the Markdown template provided.
 
-- Push your branch and open a **Pull Request** with your name and exercise theme.
+- Push your branch and open a **Draft Pull Request** with your name and exercise theme.
 
 
 
