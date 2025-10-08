@@ -12,7 +12,7 @@ Click the exercise links to open them in the online Kotlin Playground.
 Fix the class so that the `introduce()` method works and prints the correct name and age.
 
 <details>
-  <summary>🕵️ Hint (click to reveal)</summary>
+  <summary>Hint (click to reveal)</summary>
   The constructor parameters aren't automatically stored as properties.  
   Try using `val` or `var` in the constructor.
 </details>
@@ -41,7 +41,7 @@ fun main() {
 **Description:**
 Fix the Dog class so it correctly overrides `makeSound()`.
 
-<details> <summary>🕵️ Hint (click to reveal)</summary> The parent class must be `open` and the child class must use `override`. </details> <details> <summary>✅ Solution (click to reveal)</summary>
+<details> <summary>Hint (click to reveal)</summary> The parent class must be `open` and the child class must use `override`. </details> <details> <summary>✅ Solution (click to reveal)</summary>
 
 ```kotlin
 open class Animal {
@@ -65,7 +65,7 @@ class Dog : Animal() {
 **Description:**  
 Fix the Car class so printInfo() prints the correct brand.
 
-<details> <summary>🕵️ Hint (click to reveal)</summary>
+<details> <summary>Hint (click to reveal)</summary>
   The `brand` property must be initialized in the constructor. 
 </details> 
 <details> <summary>✅ Solution (click to reveal)</summary>
@@ -91,7 +91,7 @@ fun main() {
 **Description:**  
 The Mage class should inherit from Character correctly.
 
-<details> <summary>🕵️ Hint (click to reveal)</summary> 
+<details> <summary>Hint (click to reveal)</summary> 
   Child classes must call the parent constructor: `class Mage(name: String, ...) : Character(name)`. 
 </details> 
 <details> <summary>✅ Solution (click to reveal)</summary>
@@ -124,7 +124,7 @@ fun main() {
 **Description:**  
 Add deposit() and fix withdraw() methods so balance updates correctly.
 
-<details> <summary>🕵️ Hint (click to reveal)</summary> 
+<details> <summary>Hint (click to reveal)</summary> 
   Deposit should add money, withdraw should subtract money if there’s enough balance.
 </details> 
 <details> <summary>✅ Solution (click to reveal)</summary>
